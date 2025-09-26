@@ -25,6 +25,7 @@ elif op_input == '-':
     print(f' Результат: {num1 - num2}')
 elif op_input == '*':
     print(f' Результат: {num1 * num2}')
-else:
+elif op_input == '/':
     print(f' Результат: {num1 / num2}')
-
+else:
+    print('Ошибка, иди нахуй')
